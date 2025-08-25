@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
@@ -17,24 +17,51 @@
     <meta property="og:url" content="https://dinkes.situbondo.go.id/">
     <meta property="og:image" content="https://dinkes.situbondo.go.id/assets/img/logo.png">
     <meta name="robots" content="index, follow">
+
+    <link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="logo-pemkab.webp" alt="Logo Dinkes Situbondo" style="height:100%; max-height:60px; width:auto;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-            <span style="display:none;">Dinkes Situbondo</span>
-        </div></div>
-        <ul class="nav-links">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Profil</a></li>
-            <li><a href="#">Pelayanan</a></li>
-            <li><a href="#">Informasi</a></li>
-            <li><a href="#">Dokumen & Data</a></li>
-        </ul>
-        <button class="cta">Sign Up</button>
-    </nav>
+    <header>
+        <nav class="navbar" aria-label="Navigasi utama">
+            <div class="logo">
+                <img src="logo-pemkab.webp" alt="Logo Dinkes Situbondo" style="height:100%; max-height:72px; width:auto;"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span style="display:none;">Dinkes Situbondo</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Pelayanan</a></li>
+                <li><a href="#">Informasi</a></li>
+                <li><a href="#">Dokumen & Data</a></li>
+            </ul>
+            <button class="cta" type="button">Hubungi Kami</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="tagline-wrapper">
+            <button class="tagline-btn" type="button">Situbondo Naik Kelas</button>
+        </div>
+
+        <h1 class="headline">
+            Mewujudkan <span class="highlight">Layanan Kesehatan</span> <br>Berkualitas Tanpa Batas
+        </h1>
+        <p class="subtagline"><small>Dinas Kesehatan Kabupaten Situbondo berkomitmen memberikan layanan kesehatan terbaik bagi
+            masyarakat.</small></p>
+
+        <div class="tagline-wrapper">
+            <button class="cta" type="button">Pelajari Lebih Lanjut</button>
+            <button class="tagline-btn" type="button">Lihat Program Kami</button>
+        </div>
+
+        <section class="hero" aria-label="Gambar hero">
+            <img src="hero.jpg" alt="Hero image" loading="lazy" />
+        </section>
+    </main>
 
 </body>
 
