@@ -27,7 +27,8 @@
     <header>
         <nav class="navbar" aria-label="Navigasi utama">
             <div class="logo">
-                <img src="logo-pemkab.webp" alt="Logo Dinkes Situbondo" style="height:100%; max-height:72px; width:auto;"
+                <img src="logo-pemkab.webp" alt="Logo Dinkes Situbondo"
+                    style="height:100%; max-height:72px; width:auto;"
                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                 <span style="display:none;">Dinkes Situbondo</span>
             </div>
@@ -42,24 +43,41 @@
         </nav>
     </header>
 
-    <main>
-        <div class="tagline-wrapper">
-            <button class="tagline-btn" type="button">Situbondo Naik Kelas</button>
-        </div>
+    <main style="position: relative; top: var(--navbar-height);">
+        <section id="heading">
+            <div class="tagline-wrapper">
+                <img src="naikkelas.png" alt="Situbondo Naik Kelas" style="width: 225px; height: auto;">
+            </div>
 
-        <h1 class="headline">
-            Mewujudkan <span class="highlight">Layanan Kesehatan</span> <br>Berkualitas Tanpa Batas
-        </h1>
-        <p class="subtagline"><small>Dinas Kesehatan Kabupaten Situbondo berkomitmen memberikan layanan kesehatan terbaik bagi
-            masyarakat.</small></p>
+            <h1 class="headline">
+                Mewujudkan <span class="highlight">Layanan Kesehatan</span> <br>Berkualitas Tanpa Batas
+            </h1>
+            <p class="subtagline"><small>Dinas Kesehatan Kabupaten Situbondo berkomitmen memberikan layanan kesehatan
+                    terbaik bagi
+                    masyarakat.</small></p>
 
-        <div class="tagline-wrapper">
-            <button class="cta" type="button">Pelajari Lebih Lanjut</button>
-            <button class="tagline-btn" type="button">Lihat Program Kami</button>
-        </div>
+            <div class="tagline-wrapper">
+                <button class="cta" type="button">Pelajari Lebih Lanjut</button>
+                <button class="tagline-btn" type="button">Lihat Program Kami</button>
+            </div>
+        </section>
 
         <section class="hero" aria-label="Gambar hero">
             <img src="hero.jpg" alt="Hero image" loading="lazy" />
+        </section>
+        <section class="cards" aria-label="Kartu fitur">
+            <article class="card">
+                <img src="pirt.jpg" alt="Program 1" loading="lazy">
+                <h6 class="card-title">Pelayanan PIRT</h6>
+            </article>
+            <article class="card">
+                <img src="berantas.jpg" alt="Program 2" loading="lazy">
+                <h6 class="card-title">BERANTAS</h6>
+            </article>
+            <article class="card">
+                <img src="ambulans.jpg" alt="Program 3" loading="lazy">
+                <h6 class="card-title">Ambulans Gratis</h6>
+            </article>
         </section>
     </main>
 
