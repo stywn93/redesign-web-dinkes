@@ -15,7 +15,7 @@ html{
   --space-96: 96px;
 
   /* component sizes */
-  --navbar-height: 128px;
+  --navbar-height: 100px;
 
   /* radius */
   --radius-12: 12px;
@@ -164,7 +164,7 @@ small{
 
 .card {
   width: 350px;
-  height: 240px;
+  height: 225px;
   background: #ffffff;
   border-radius: var(--radius-12);
   overflow: hidden;
